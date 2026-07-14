@@ -22,23 +22,28 @@ multi-omics data analysis.
 - Snakemake
 - Biopython, pandas, matplotlib
 
-Install with:pip install -r requirements.txt
-## Usage 
-snakemake --cores 1
+Install with:
+
+    pip install -r requirements.txt
+
+## Usage
+
+    snakemake --cores 1
+
 Snakemake automatically resolves the step order from each rule's declared
 inputs/outputs — see the `Snakefile` for the full pipeline definition.
 
 ## Configuration
 
 Minimum sequence length is set in `config.yaml`:
-```yaml
-min_length: 45
-```
+
+    min_length: 45
 
 ## Project structure
-.
-├── Snakefile          # pipeline definition
-├── config.yaml         # parameters
-├── data/                # input FASTA files
-├── scripts/             # one Python script per pipeline step
-└── results/             # generated outputs (filtered FASTA, stats CSV, plot)
+
+    .
+    ├── Snakefile          # pipeline definition
+    ├── config.yaml         # parameters
+    ├── data/                # input FASTA files
+    ├── scripts/             # one Python script per pipeline step
+    └── results/             # generated outputs (filtered FASTA, stats CSV, plot)
