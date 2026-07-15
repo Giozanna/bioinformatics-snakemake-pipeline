@@ -1,1 +1,6 @@
 min_length: 45
+
+# Fungal ITS primers (ITS3/ITS4; White et al. 1990), used for primer
+# trimming in the amplicon sequencing part of the pipeline
+its3_primer: "GCATCGATGAAGAACGCAGC"
+its4_primer: "TCCTCCGCTTATTGATATGC"

@@ -1,0 +1,6 @@
+Feature ID	Taxon
+RefSeq_1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae;g__Fusarium;s__Fusarium_sp1
+RefSeq_2	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae;g__Fusarium;s__Fusarium_sp2
+RefSeq_3	k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Agaricales;f__Marasmiaceae;g__Marasmius;s__Marasmius_sp1
+RefSeq_4	k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Polyporales;f__Polyporaceae;g__Trametes;s__Trametes_sp1
+RefSeq_5	k__Fungi;p__Mucoromycota;c__Mucoromycetes;o__Mucorales;f__Mucoraceae;g__Mucor;s__Mucor_sp1
