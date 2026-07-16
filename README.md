@@ -1,3 +1,4 @@
+![Pipeline Status](https://github.com/Giozanna/bioinformatics-snakemake-pipeline/actions/workflows/pipeline.yml/badge.svg)
 # Bioinformatics Snakemake Pipeline
 
 A small, reproducible pipeline for FASTA sequence quality control: filters
