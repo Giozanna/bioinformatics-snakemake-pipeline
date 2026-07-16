@@ -34,6 +34,11 @@ jobs:
           key: r-dada2-${{ runner.os }}-${{ hashFiles('**/*.R') }}
           restore-keys: r-dada2-${{ runner.os }}-
 
+      - name: Install system dependencies for DADA2
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev zlib1g-dev libbz2-dev liblzma-dev
+
       - name: Install DADA2
         run: |
           Rscript -e 'if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")'
